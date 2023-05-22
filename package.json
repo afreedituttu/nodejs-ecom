@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-ecom",
+  "version": "1.0.0",
+  "description": "ecommerce rest api using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afreedituttu/nodejs-ecom.git"
+  },
+  "author": "Afreedi z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afreedituttu/nodejs-ecom/issues"
+  },
+  "homepage": "https://github.com/afreedituttu/nodejs-ecom#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
